@@ -1,0 +1,21 @@
+{
+  "total_providers": 7469,
+  "total_counties": 67,
+  "pct_rated": 83.7,
+  "provider_types": {
+    "Center": 4995,
+    "Family Home": 958,
+    "Other / Resource": 932,
+    "Group Home": 584
+  },
+  "star_distribution": {
+    "STAR 1": 2976,
+    "STAR 4": 1893,
+    "Unrated": 1216,
+    "STAR 2": 1150,
+    "STAR 3": 234
+  },
+  "has_census_data": true,
+  "total_children_under5": 688571,
+  "median_providers_per_1k": 9.6
+}
