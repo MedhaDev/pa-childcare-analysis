@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 .DS_Store
 outputs/pa_childcare_points.csv
+README.md
