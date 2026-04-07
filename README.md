@@ -1,5 +1,5 @@
 # Pennsylvania Child Care Access Analysis
-**Where can Pennsylvania families find licensed child care, and what quality can they expect?**
+**How accessible is licensed child care for Pennsylvania families, and how does quality vary by county?**
 
 This project analyzes 7,469 licensed child care providers across all 67 Pennsylvania counties using public licensing data and Census population estimates to map where access is strong, where it falls short, and where quality lags behind availability.
 
@@ -9,8 +9,7 @@ This project analyzes 7,469 licensed child care providers across all 67 Pennsylv
 
 ![PA Child Care Access Map](map.png)
 
-> Licensed providers per 1,000 children under 5 by county. Red = lowest access, green = highest.  
-> Built with PA DHS licensing data + Census ACS 2022. [View interactive map →](https://datawrapper.dwcdn.net/yTPLn/1/)
+> Child care in Pennsylvania: availability, density, and quality by county [View interactive map →](https://datawrapper.dwcdn.net/yTPLn/1/)
 
 ---
 
@@ -86,5 +85,3 @@ Dashboard runs at `http://localhost:8501`
 ## Stack
 
 Python · Pandas · GeoPandas · Streamlit · Plotly · Census API · Datawrapper
-
----
