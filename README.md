@@ -7,8 +7,7 @@ This project analyzes 7,469 licensed child care providers across all 67 Pennsylv
 
 ## The map
 
-![PA Child Care Access, Providers per 1,000 Children Under 5](<img width="1240" height="1208" alt="yTPLn-pennsylvania-child-care-access-providers-per-1-000-children-under-5-" src="https://github.com/user-attachments/assets/88e14aaf-b9d9-48c0-80fa-3df7e3b48966" />
-)
+![PA Child Care Access Map](map.png)
 
 > Licensed providers per 1,000 children under 5 by county. Red = lowest access, green = highest.  
 > Built with PA DHS licensing data + Census ACS 2022. [View interactive map →](https://datawrapper.dwcdn.net/yTPLn/1/)
