@@ -1,7 +1,10 @@
 # Pennsylvania Child Care Access Analysis
+
 **How accessible is licensed child care for Pennsylvania families, and how does quality vary by county?**
 
 This project analyzes 7,469 licensed child care providers across all 67 Pennsylvania counties using public licensing data and Census population estimates to map where access is strong, where it falls short, and where quality lags behind availability.
+
+**→ [Explore the interactive dashboard](https://pa-childcare-analysis.streamlit.app)**
 
 ---
 
@@ -25,7 +28,7 @@ This project analyzes 7,469 licensed child care providers across all 67 Pennsylv
 
 ## What I built
 
-A Python pipeline that pulls from two public sources, merges them at the county level, and feeds a Streamlit dashboard:
+A Python pipeline that pulls from two public sources, merges them at the county level, and feeds an interactive Streamlit dashboard:
 
 **Data sources:**
 - PA DHS Child Care Provider Listing (April 2026), 7,469 rows, 53 columns
@@ -38,7 +41,7 @@ A Python pipeline that pulls from two public sources, merges them at the county 
 - Flagged counties with <10 providers as statistically unreliable on the per-1k metric
 
 **Outputs:**
-- Interactive Streamlit dashboard (filterable by county, provider type, STAR rating)
+- [Interactive Streamlit dashboard](https://pa-childcare-analysis.streamlit.app) (filterable by county, provider type, STAR rating)
 - Datawrapper choropleth map
 - Export-ready CSVs for Datawrapper / Tableau
 
@@ -58,11 +61,9 @@ A Python pipeline that pulls from two public sources, merges them at the county 
 ```bash
 git clone https://github.com/MedhaDev/pa-childcare-analysis.git
 cd pa-childcare-analysis
-
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-
 # Download PA DHS data from data.pa.gov and update DHS_CSV path in pipeline.py
 python pipeline.py
 streamlit run dashboard.py
